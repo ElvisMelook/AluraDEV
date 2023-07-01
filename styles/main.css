@@ -1,0 +1,60 @@
+
+:root{
+    --preto: #000000;
+    --azul-fundo:#051D3B;
+    --azul-ceu: #6BD1FF;
+    --azul-claro:#5081FB;
+    --branco: #FFFFFF;
+    --cinza:#C4C4C4;
+    --roboto:font-family: 'Roboto Mono', monospace;
+    --inter:font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: var(--preto);
+    font-family: 'Inter', sans-serif;
+}
+.caixa{
+    background-color: var(--azul-fundo);
+    margin: 0 3%;
+    height: 100vh;
+    border-radius: 40px;
+}
+.cabecalho{
+    background: var(--azul-fundo);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px;
+    border-radius: 40px;
+}
+.cabecalho__input{
+    width: 50%;
+    height: 3.5rem;
+    /* background: #c4c4c44f; */
+    background-color: rgba(64, 81, 102, 0.687);
+    border-radius: 8px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.715) 0px 2px 5px;
+
+}
+.cabecalho__input::placeholder{
+    color: var(--cinza);
+    padding: 10px;
+    font-size: 16px;
+    font-family:'Inter', sans-serif;
+    
+}
+.cabecalho__user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--branco);
+    font-size: 14px;
+    font-family: var(--inter);
+   
+}
+.cabecalho__user p{
+    font-family:'Inter', sans-serif;
+    
+}
